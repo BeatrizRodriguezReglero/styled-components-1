@@ -1,5 +1,16 @@
+import CardContainer from "./components/card-container/CardContainer";
+import { GlobalStyles } from "./styles/GlobalStyles";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+		
+			<GlobalStyles/>
+			<CardContainer/>
+
+
+		</>
+	)
 };
 
 export default App;
